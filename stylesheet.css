@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Unbounded', cursive;
+}
+
+p
+{
+    font-family : 'Unbounded', sans-serif;
+    font-weight : 300;
+    font-size   : 12px;
+}
+
+h1
+{
+    font-family : 'Unbounded', sans-serif;
+    font-weight : 500;
+    font-size   : 18px;
+}
+
+.button-container
+{
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+#start-button
+{
+    background-color : #4CAF50;
+    border           : none;
+    color            : white;
+    cursor           : pointer;
+    display          : inline-block;
+    font-family      : 'Unbounded', sans-serif;
+    font-size        : 12px;
+    margin           : 4px 2px;
+    padding          : 15px 32px;
+    text-align       : center;
+    text-decoration  : none;
+}
+
+#stop-button
+{
+    background-color : #F44336;
+    border           : none;
+    color            : white;
+    cursor           : pointer;
+    display          : inline-block;
+    font-family      : 'Unbounded', sans-serif;
+    font-size        : 12px;
+    margin           : 4px 2px;
+    padding          : 15px 32px;
+    text-align       : center;
+    text-decoration  : none;
+}

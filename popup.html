@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Back Pain Killer</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Back Pain Killer</h1>
+    <p>This extension sends you a voice message to remind you to sit properly on your chair and thus prevent back pain.</p>
+    <form>
+        <label>Interval (in minutes):</label>
+        <input type="number" id="interval" min="1" value="...">
+    </form>
+    <div class="button-container">
+        <button id="start-button">Start</button>
+        <button id="stop-button" disabled>Stop</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

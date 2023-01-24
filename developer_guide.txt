@@ -1,0 +1,76 @@
+/ **************** /
+/       GOAL       / 
+/ **************** /
+
+Develop a Google Chrome extension that sends a vocal reminder to the user to sit well on his chair.
+
+/ ***************************** /
+/       DEVELOPMENT STEPS       / 
+/ ***************************** /
+
+1) Set up the project: 
+    
+    Create a new folder for your extension and create the following files :
+    - background.js
+    - manifest.json
+    - popup.html
+    - popup.js
+
+2) Create the User Interface (UI): 
+
+    Develop the UI of your extension using HTML, CSS and JavaScript.
+
+3) Create the background.js file logic
+    
+    Use the Web Speech API to generate the speech for the reminder message
+    Use the Chrome Extension API to interact with the browse
+    Use the setInterval() function to send the message at a set interval of time, as specified by the user
+
+4) Test the extension:
+
+    Test the extension on Google Chrome to make sure it works as expected
+
+5) Package the extension:
+    
+    Package the extension into a .crx file, so you can distribute it to others.
+
+8) Publish the extension:
+
+    Publish the extension on the Chrome Web Store or distribute it via other means.
+
+/ ********************* /
+/       RESOURCES       / 
+/ ********************* /
+
+Resources to learn more about Chrome extension development:
+
+1) The official Google Chrome Extension Development documentation:
+    
+    https://developer.chrome.com/docs/extensions
+
+2) The Web Speech API documentation:
+
+    https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
+
+3) Chrome Extension samples :
+
+    https://developer.chrome.com/docs/extensions/samples
+
+/ ********************** /
+/       TEST PHASE       / 
+/ ********************** /
+
+1) Open Google Chrome and type "chrome://extensions" in the address bar. This will open the extensions page.
+
+2) Turn on the "Developer mode" toggle switch in the top right corner of the page. This will enable the ability to load unpacked extensions.
+
+3) Click on the "Load unpacked" button and select the folder where you have saved your extension files (manifest.json, background.js, popup.html, popup.js). This will install the extension and make it available in your browser.
+
+4) Once the extension is loaded, you should see it in the list of extensions on the chrome://extensions page, and you should also see the extension icon (for example a button) in the chrome toolbar.
+
+5) Click on the extension icon to open the popup, then you can test the different options of your extension:
+
+    - Test the start/stop button
+    - Test the interval input to set the interval between the message
+
+In case of errors or issues, check the browser's console for any error messages by right-clicking anywhere on the page and selecting "Inspect" or "Inspect Element". This will open the developer tools, where the console is accessible.
