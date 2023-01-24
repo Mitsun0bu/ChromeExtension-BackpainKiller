@@ -1,6 +1,7 @@
 body
 {
-    font-family: 'Unbounded', cursive;
+    font-family : 'Unbounded', cursive;
+    text-align  : center;
 }
 
 p
@@ -18,6 +19,13 @@ h1
 }
 
 .button-container
+{
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}
+
+.input-container
 {
     display         : flex;
     align-items     : center;

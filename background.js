@@ -39,7 +39,7 @@ function sendVocalMessage()
         'Don\'t forget to sit well on your chair if you wanna avoid backpain !',
         {
             rate        : 0.9,
-            voiceName   : 'Google UK English Male'
+            voiceName   : 'Google UK English Female' //en-GB-News-L
         }
     );
 }
