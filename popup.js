@@ -1,6 +1,6 @@
 // Get references to the start and stop buttons
-const   startButton = document.getElementById('start-button');
-const   stopButton  = document.getElementById('stop-button');
+const   startButton   = document.getElementById('start-button');
+const   stopButton    = document.getElementById('stop-button');
 
 // Get reference to the interval input
 const   intervalInput = document.getElementById('interval');
@@ -28,7 +28,7 @@ function stopReminder()
 {
     // Enable the start button and disable the stop button
     startButton.disabled = false;
-    stopButton.disabled = true;
+    stopButton.disabled  = true;
   
     // Send a message to the background script to stop the reminder
     chrome.runtime.sendMessage({ type: 'stop' });

@@ -29,6 +29,15 @@ function startReminder(interval)
 function stopReminder()
 {
     clearInterval(intervalId);
+    // Use the chrome.tts API to send the message
+    chrome.tts.speak
+    (
+        'Thank you for using this extension. May your posture improve with time!',
+        {
+            rate        : 0.9,
+            voiceName   : 'Google UK English Female' //en-GB-News-L
+        }
+    );
 }
 
 function sendVocalMessage()
